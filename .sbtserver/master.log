@@ -23349,3 +23349,363 @@ Copy resource mappings:
 Total time: 2 s, completed 03.05.2015 22:41:24
 > server-post-command-cleanup
 > server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@40b148f3, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 1 s, completed 03.05.2015 22:45:19
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@c437a1d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 1 s, completed 03.05.2015 22:46:50
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@48d3c97b, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 1 s, completed 03.05.2015 22:46:56
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@6adef282, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 1 s, completed 03.05.2015 22:49:14
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@17244f95, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 1 s, completed 03.05.2015 22:49:16
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@8a6f81b, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 1 s, completed 03.05.2015 22:53:00
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@7ac3b8f7, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 1 s, completed 03.05.2015 22:53:01
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@5e1da4b7, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 1 s, completed 03.05.2015 22:53:53
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@6636cbb5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 1 s, completed 03.05.2015 22:54:01
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@7cca5b8, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 1 s, completed 03.05.2015 22:55:00
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@2ec8ba48, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 1 s, completed 03.05.2015 22:55:04
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@267029fd, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 0 s, completed 03.05.2015 22:55:05
+> server-post-command-cleanup
+> server-handle-next-server-request
