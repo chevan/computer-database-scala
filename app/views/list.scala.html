@@ -32,7 +32,7 @@
     <div id="actions">
         
         @helper.form(action=routes.Application.list()) {
-            <input type="search" id="searchbox" name="f" value="@currentFilter" placeholder="Filter by computer name...">
+            <input type="search" id="searchbox" name="f" value="@currentFilter" placeholder="Filter by TODO name...">
             <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
         }
         
@@ -45,9 +45,9 @@
         <table class="computers zebra-striped">
             <thead>
                 <tr>
-                    @header(2, "Computer name")
-                    @header(3, "Introduced")
-                    @header(4, "Discontinued")
+                    @header(2, "TODO")
+                    @header(3, "Deadline")
+                    @header(4, "Progress")
                     
                 </tr>
             </thead>

@@ -22797,3 +22797,555 @@ Copy resource mappings:
 Total time: 9 s, completed 03.05.2015 21:48:13
 > server-post-command-cleanup
 > server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@446784, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.4
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.4
+Other repositories:
+Default repositories:
+Running cached compiler 53b3c8b9, interfacing (CompilerInterface) with Scala compiler version 2.11.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes;C:\Users\Cheng\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.4.jar
+	-classpath
+	C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\Cheng\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\Cheng\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\io.netty\netty\bundles\netty-3.9.3.Final.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\Cheng\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\Cheng\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\Cheng\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\Cheng\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\Cheng\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\Cheng\.ivy2\cache\com.google.guava\guava\bundles\guava-15.0.jar;C:\Users\Cheng\.ivy2\cache\com.h2database\h2\jars\h2-1.3.175.jar;C:\Users\Cheng\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\org.webjars\jquery\jars\jquery-2.1.1.jar;C:\Users\Cheng\.ivy2\cache\org.webjars\bootstrap\jars\bootstrap-3.3.1.jar
+Scala compilation took 3.094121376 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 5 s, completed 03.05.2015 22:17:00
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@7e2f1eb, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.4
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.4
+Other repositories:
+Default repositories:
+Running cached compiler 304f4c5f, interfacing (CompilerInterface) with Scala compiler version 2.11.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes;C:\Users\Cheng\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.4.jar
+	-classpath
+	C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\Cheng\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\Cheng\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\io.netty\netty\bundles\netty-3.9.3.Final.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\Cheng\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\Cheng\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\Cheng\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\Cheng\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\Cheng\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\Cheng\.ivy2\cache\com.google.guava\guava\bundles\guava-15.0.jar;C:\Users\Cheng\.ivy2\cache\com.h2database\h2\jars\h2-1.3.175.jar;C:\Users\Cheng\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\org.webjars\jquery\jars\jquery-2.1.1.jar;C:\Users\Cheng\.ivy2\cache\org.webjars\bootstrap\jars\bootstrap-3.3.1.jar
+Scala compilation took 3.028123217 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 5 s, completed 03.05.2015 22:18:21
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@133bf685, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.4
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.4
+Other repositories:
+Default repositories:
+Running cached compiler 2c689b34, interfacing (CompilerInterface) with Scala compiler version 2.11.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes;C:\Users\Cheng\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.4.jar
+	-classpath
+	C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\Cheng\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\Cheng\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\io.netty\netty\bundles\netty-3.9.3.Final.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\Cheng\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\Cheng\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\Cheng\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\Cheng\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\Cheng\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\Cheng\.ivy2\cache\com.google.guava\guava\bundles\guava-15.0.jar;C:\Users\Cheng\.ivy2\cache\com.h2database\h2\jars\h2-1.3.175.jar;C:\Users\Cheng\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\org.webjars\jquery\jars\jquery-2.1.1.jar;C:\Users\Cheng\.ivy2\cache\org.webjars\bootstrap\jars\bootstrap-3.3.1.jar
+Scala compilation took 3.844317129 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 6 s, completed 03.05.2015 22:20:46
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@498ce2d0, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.4
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.4
+Other repositories:
+Default repositories:
+Running cached compiler 6fa4702f, interfacing (CompilerInterface) with Scala compiler version 2.11.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes;C:\Users\Cheng\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.4.jar
+	-classpath
+	C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\Cheng\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\Cheng\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\io.netty\netty\bundles\netty-3.9.3.Final.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\Cheng\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\Cheng\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\Cheng\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\Cheng\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\Cheng\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\Cheng\.ivy2\cache\com.google.guava\guava\bundles\guava-15.0.jar;C:\Users\Cheng\.ivy2\cache\com.h2database\h2\jars\h2-1.3.175.jar;C:\Users\Cheng\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\org.webjars\jquery\jars\jquery-2.1.1.jar;C:\Users\Cheng\.ivy2\cache\org.webjars\bootstrap\jars\bootstrap-3.3.1.jar
+Scala compilation took 3.182496641 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 5 s, completed 03.05.2015 22:22:11
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@7c7778cc, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.4
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.4
+Other repositories:
+Default repositories:
+Running cached compiler 4949e704, interfacing (CompilerInterface) with Scala compiler version 2.11.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes;C:\Users\Cheng\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.4.jar
+	-classpath
+	C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\Cheng\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\Cheng\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\io.netty\netty\bundles\netty-3.9.3.Final.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\Cheng\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\Cheng\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\Cheng\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\Cheng\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\Cheng\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\Cheng\.ivy2\cache\com.google.guava\guava\bundles\guava-15.0.jar;C:\Users\Cheng\.ivy2\cache\com.h2database\h2\jars\h2-1.3.175.jar;C:\Users\Cheng\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\org.webjars\jquery\jars\jquery-2.1.1.jar;C:\Users\Cheng\.ivy2\cache\org.webjars\bootstrap\jars\bootstrap-3.3.1.jar
+Read from stdout: C:\Users\Cheng\computer-database-scala\app\views\main.scala.html:37: not enough arguments for method edit: (id: Long)play.api.mvc.Call.
+Read from stdout: Unspecified value parameter id.
+C:\Users\Cheng\computer-database-scala\app\views\main.scala.html:37: not enough arguments for method edit: (id: Long)play.api.mvc.Call.
+Unspecified value parameter id.
+Read from stdout: 			<li><a href="@routes.Application.edit()">Edit</a></li>
+          			<li><a href="@routes.Application.edit()">Edit</a></li>
+Read from stdout: 			                                     ^
+          			                                     ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Total time: 4 s, completed 03.05.2015 22:24:42
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@60b22ea5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.4
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.4
+Other repositories:
+Default repositories:
+Running cached compiler 4881cad4, interfacing (CompilerInterface) with Scala compiler version 2.11.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes;C:\Users\Cheng\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.4.jar
+	-classpath
+	C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\Cheng\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\Cheng\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\io.netty\netty\bundles\netty-3.9.3.Final.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\Cheng\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\Cheng\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\Cheng\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\Cheng\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\Cheng\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\Cheng\.ivy2\cache\com.google.guava\guava\bundles\guava-15.0.jar;C:\Users\Cheng\.ivy2\cache\com.h2database\h2\jars\h2-1.3.175.jar;C:\Users\Cheng\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\org.webjars\jquery\jars\jquery-2.1.1.jar;C:\Users\Cheng\.ivy2\cache\org.webjars\bootstrap\jars\bootstrap-3.3.1.jar
+Read from stdout: C:\Users\Cheng\computer-database-scala\app\views\main.scala.html:37: not enough arguments for method edit: (id: Long)play.api.mvc.Call.
+Read from stdout: Unspecified value parameter id.
+C:\Users\Cheng\computer-database-scala\app\views\main.scala.html:37: not enough arguments for method edit: (id: Long)play.api.mvc.Call.
+Unspecified value parameter id.
+Read from stdout: 			<li><a href="@routes.Application.edit()">Edit</a></li>
+          			<li><a href="@routes.Application.edit()">Edit</a></li>
+Read from stdout: 			                                     ^
+          			                                     ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Total time: 3 s, completed 03.05.2015 22:25:31
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@143142a8, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.4
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.4
+Other repositories:
+Default repositories:
+Running cached compiler b76e9d4, interfacing (CompilerInterface) with Scala compiler version 2.11.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes;C:\Users\Cheng\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.4.jar
+	-classpath
+	C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\Cheng\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\Cheng\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\io.netty\netty\bundles\netty-3.9.3.Final.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\Cheng\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\Cheng\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\Cheng\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\Cheng\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\Cheng\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\Cheng\.ivy2\cache\com.google.guava\guava\bundles\guava-15.0.jar;C:\Users\Cheng\.ivy2\cache\com.h2database\h2\jars\h2-1.3.175.jar;C:\Users\Cheng\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\org.webjars\jquery\jars\jquery-2.1.1.jar;C:\Users\Cheng\.ivy2\cache\org.webjars\bootstrap\jars\bootstrap-3.3.1.jar
+Scala compilation took 2.715813273 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 5 s, completed 03.05.2015 22:26:20
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@18d5bf1e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 2 s, completed 03.05.2015 22:26:22
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@5188699c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\list.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\list.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Cheng\computer-database-scala\target\scala-2.11\twirl\main\views\html\list.template.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.4
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.4
+Other repositories:
+Default repositories:
+Running cached compiler 6e9499f8, interfacing (CompilerInterface) with Scala compiler version 2.11.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes;C:\Users\Cheng\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.4.jar
+	-classpath
+	C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\Cheng\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\Cheng\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\io.netty\netty\bundles\netty-3.9.3.Final.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\Cheng\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\Cheng\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\Cheng\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\Cheng\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\Cheng\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\Cheng\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\Cheng\.ivy2\cache\com.google.guava\guava\bundles\guava-15.0.jar;C:\Users\Cheng\.ivy2\cache\com.h2database\h2\jars\h2-1.3.175.jar;C:\Users\Cheng\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.8.jar;C:\Users\Cheng\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\Cheng\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\Cheng\.ivy2\cache\org.webjars\jquery\jars\jquery-2.1.1.jar;C:\Users\Cheng\.ivy2\cache\org.webjars\bootstrap\jars\bootstrap-3.3.1.jar
+Scala compilation took 5.071031287 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 7 s, completed 03.05.2015 22:30:42
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@f04dc15, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 2 s, completed 03.05.2015 22:34:13
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@3bccffa3, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 2 s, completed 03.05.2015 22:41:19
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Cheng/computer-database-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@1c58dcec, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Cheng\computer-database-scala\conf\application.conf,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\application.conf)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions)
+	(C:\Users\Cheng\computer-database-scala\conf\messages,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\messages)
+	(C:\Users\Cheng\computer-database-scala\conf\routes,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\routes)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\1.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\1.sql)
+	(C:\Users\Cheng\computer-database-scala\conf\evolutions\default\2.sql,C:\Users\Cheng\computer-database-scala\target\scala-2.11\classes\evolutions\default\2.sql)
+Total time: 2 s, completed 03.05.2015 22:41:24
+> server-post-command-cleanup
+> server-handle-next-server-request
