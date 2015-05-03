@@ -6,28 +6,24 @@
 
 @main {
     
-    <h1>Add a computer</h1>
+    <h1>Add a TODO</h1>
     
     @form(routes.Application.save()) {
         
         <fieldset>
         
-            @inputText(computerForm("name"), '_label -> "Computer name", '_help -> "")
-            @inputDate(computerForm("introduced"), '_label -> "Introduced date", '_help -> "")
-            @inputDate(computerForm("discontinued"), '_label -> "Discontinued date", '_help -> "")
+            @inputText(computerForm("name"), '_label -> "TODO", '_help -> "")
+            @inputDate(computerForm("introduced"), '_label -> "Deadline", '_help -> "")
+            @inputDate(computerForm("discontinued"), '_label -> "Progress", '_help -> "")
 
-            @select(
-                computerForm("company"), 
-                companies, 
-                '_label -> "Company", '_default -> "-- Choose a company --",
-                '_showConstraints -> false
-            )
+            
+            
             
 
         </fieldset>
         
         <div class="actions">
-            <input type="submit" value="Create this computer" class="btn primary"> or 
+            <input type="submit" value="Create this todo" class="btn primary"> or 
             <a href="@routes.Application.list()" class="btn">Cancel</a> 
         </div>
         
